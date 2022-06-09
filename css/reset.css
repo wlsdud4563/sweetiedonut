@@ -1,0 +1,37 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@font-face {
+    font-family: donut;
+    src: url(../fonts/donutsCookies.woff2) format('woff2');
+}
+
+/*:root{
+    --test-color:#ffaade;
+    변수명: 데이터
+}*/
+/* 변수 테스트컬러는 전체를 바꿀수 있도록 할수 있다 앞에 -- 와 중간 - 넣어 줘야함*/
+/* header{
+    background-color: var(--test-color)
+
+   css변수 쓰는 방법
+   변수는 데이터를 저장하는 공간!
+   원하는 위치에서 변수명을 호출하면 원하는 데이터를 꺼내 쓸 수 있습니다
+   대량 수정 해야할 일을 한두개 수정으로 간단하게 처리가 가능
+
+} */
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+button{
+    background-color: transparent;
+    border: 0;
+}
